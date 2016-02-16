@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发表文章</title>
+	<link rel="stylesheet" href="stylesheets/post.css">
+	<link href="stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="stylesheets/froala_editor.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="top-bar">
+			<a href="" class="logo active">
+				<b>简</b>
+			</a>
+			<a href="">
+				<i class="icon-subject"></i>
+			</a>
+			<a href="">
+				<i class="icon-mobile"></i>
+			</a>
+		</div>
+		<div class="bottom-bar">
+			<a href="">
+				<i class="icon-text-color"></i>
+			</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="top-bar"></div>
+		<div class="left-aside">
+			<div class="left-aside-head">
+				<i class="icon-pencil"></i><span>+新建文章</span>
+			</div>
+			<div class="note-title">
+				<i class="icon-file-text2"></i>
+				<div class="d-note-title">
+					<p class="sub-head">无标题文章</p>
+					<p class="sub-content">无标题文章</p>
+				</div>
+			</div>
+		</div>
+		<div class="right-aside">
+			<div class="article-title">
+				<input type="text" placeholder="无标题文章">
+			</div>
+			<div id="editor" type="text/plain">
+			</div>
+		</div>
+	</div>
+	<script src="javascript/require.js" data-main="js/main"></script>
+	<script src="javascript/jquery.js"></script>
+	<script src="javascript/froala_editor.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../js/froala_editor_ie8.min.js"></script>
+  <![endif]-->
+  <script src="javascript/plugins/tables.min.js"></script>
+  <script src="javascript/plugins/lists.min.js"></script>
+  <script src="javascript/plugins/colors.min.js"></script>
+  <script src="javascript/plugins/media_manager.min.js"></script>
+  <script src="javascript/plugins/font_family.min.js"></script>
+  <script src="javascript/plugins/font_size.min.js"></script>
+  <script src="javascript/plugins/block_styles.min.js"></script>
+  <script src="javascript/plugins/video.min.js"></script>
+	<script>
+    $(function(){
+      $('#editor').editable({inlineMode: false, alwaysBlank: true});
+      var str = '<button class="fr-bttn post" type="button" style="width:100px;color:#DE533A;"><i class="icon-redo2"></i>发布文章</button>'
+      $(".bttn-wrapper").append(str);
+      /*$("button.post").on('click', function(){
+      	alert();
+      });*/
+      $('p.sub-head').html($('div.article-title input').val());
+      $('div.article-title input').change(function(){
+      	$('p.sub-head').html($(this).val());
+      });
+      $("button.post").on('click', function(){
+      	var title = $('.article-title input').val();
+      	var post = $("div.froala-element").html();
+      	$.ajax({
+			   	type: "POST",
+			   	url: "/post",
+			   	data: "title="+title+"&post="+post,
+			   	success: function(msg){
+			 			location.href="/";
+			   	}
+				});
+      })
+    });
+  </script>
+
+</body>
+</html>

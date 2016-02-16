@@ -1,0 +1,104 @@
+<%- include header %>
+	<div class="navbar">
+		<div class="top-bar">
+			<a href="" class="logo active">
+				<b>简</b>
+			</a>
+			<a href="">
+				<i class="icon-subject"></i>
+			</a>
+			<a href="">
+				<i class="icon-mobile"></i>
+			</a>
+		</div>
+		<div class="bottom-bar">
+			<a href="">
+				<i class="icon-text-color"></i>
+			</a>
+		</div>
+	</div>
+	<div class="navbar-user">
+		<a class="login" href="/login">
+			<i class="fa icon-enter"></i>
+			登录
+		</a>
+		<a class="login" href="/reg">
+		<i class="fa icon-user"></i>
+			注册
+		</a>
+	</div>
+	<div class="content">
+		<div class="left-aside">
+			<div class="cover"></div>
+			<div class="bottom">
+				<h1>诉说</h1>
+				<h3>交流故事，沟通想法</h3>
+				<p>一个基于内容分享的社区</p>
+				<a href="/post" class="write-btn">
+					<i class="icon-quill"></i>
+					提笔写篇文章
+				</a>
+			</div>
+		</div>
+		<div class="right-aside">
+			<div class="search">
+				<ul>
+					<li class="btn">发现</li>
+					<li class="search-input">
+						<input type="text" placeholder="搜索">
+					</li>
+					<div style="clear:both;"></div>
+				</ul>
+			</div>
+			<div class="article-list">
+				<ul class="target">
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<li>123</li>
+					<li>12213213</li>
+					<div style="clear:both;"></div>
+				</ul>
+				<div class="list">
+					<ul>
+						<% posts.forEach(function(post, index){ %>
+						<li>
+							<div class="list-info">
+								<div class="author">
+									<a href="/u/<%= post.name %>"><%= post.nickname %></a>
+									<b>·</b>
+									<span>26天之前</span>
+								</div>
+								<h4 class="title">
+									<a href="/u/<%= post.name %>/<%= post.time.day %>/<%= post.title %>"><%= post.title %></a>
+								</h4>
+								<div class="list-footer">
+								 	<a href="">阅读 12312</a>
+								 	<b>·</b>
+								 	<a href="">评论 211</a>
+								 	<b>·</b>
+								 	<span>喜欢 112</span>
+								 	<b>·</b>
+								 	<span>打赏 985</span>
+								</div>
+							</div>
+							<a href="" class="article-img"></a>
+							<div style="clear:both;"></div>
+						</li>
+						<% }) %>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

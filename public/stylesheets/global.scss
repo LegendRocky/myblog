@@ -1,0 +1,145 @@
+.navbar{
+	background: #2A2A2A none repeat scroll 0% 0%;
+	height:100%;
+	width:45px;
+	/*fixed height 100%*/
+	position: fixed;
+}
+.navbar a{
+	width:45px;
+	height:45px;
+	display: block;
+	line-height: 45px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #999;
+	text-shadow: 0px 1px 0px #000;
+	position:relative;
+}
+.navbar .top-bar a:hover{
+	background-color: rgb(244,148,132);
+	color: #FFF;
+	text-shadow: 0px 1px 0px #DE533A;
+}
+.navbar a b{
+	font-weight: normal;
+}
+.navbar a.active{
+	background-color: #E78170;
+	color: #FFF;
+	text-shadow: 0px 1px 0px #DE533A;
+}
+.navbar a:hover{
+	color: white;
+}
+.navbar .bottom-bar{
+	position: absolute;
+	bottom:0;
+	font-size: 24px;
+	a:hover{
+		span.title,div.arrow-left{
+			display:block;
+		}
+	}
+}
+
+.bottom-bar span.title{
+	position:absolute;
+	left:55px;
+	width:80px;
+	bottom:8px;
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	display:none;
+}
+
+//san jiao
+.bottom-bar .arrow-left{
+	position:absolute;
+	left:50px;
+	bottom:21px;
+	width:0;
+	height:0;
+	border-top:6px solid transparent;
+	border-bottom:6px solid transparent;
+	border-right:6px solid black;
+	display:none;
+}
+.bottom-bar .arrow-left{
+	position:absolute;
+	left:50px;
+	bottom:21px;
+	width:0;
+	height:0;
+	border-top:6px solid transparent;
+	border-bottom:6px solid transparent;
+	border-right:6px solid black;
+	display:none;
+}
+.navbar-top .arrow-left{
+	position:absolute;
+	right:89px;
+	top:26px;
+	width:0;
+	height:0;
+	border-top:6px solid transparent;
+	border-bottom:6px solid transparent;
+	border-right:6px solid black;
+	display:none;
+}
+.arrow-up {
+	position:absolute;
+	right:152px;
+	top:50px;
+  width:0; 
+  height:0; 
+  border-left:6px solid transparent;
+  border-right:6px solid transparent;
+  border-bottom:6px solid black;
+  display:none;
+}
+.arrow-down {
+	position:absolute;
+	right:18px;
+	top:30px;
+  width:0; 
+  height:0; 
+  border-left:4px solid transparent;
+  border-right:4px solid transparent;
+  border-top:4px solid black;
+}
+.navbar-user{
+	position: fixed;
+	top:20px;
+	right:0px;
+	width:120px;
+	height: 30px;
+	line-height: 30px;
+}
+.navbar-user a.login:nth-child(1){
+	margin-right: 15px;
+	position:relative;
+}
+.navbar-user a.login{
+	opacity:0.6;
+}
+.navbar-user a.login:hover{
+	opacity:1;
+}
+i.icon-enter{
+	position: absolute; 
+	top:2px;
+	right:27px;
+}
+.fa{
+	width:24px;
+	height: 24px;
+}
+i.fa:before{
+	color:black;
+}

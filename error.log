@@ -1,0 +1,384 @@
+[Mon Nov 09 2015 23:58:08 GMT+0800 (CST)] /post
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:350:11)
+    at ServerResponse.res.setHeader (/home/zy/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/home/zy/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/home/zy/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/home/zy/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/home/zy/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/home/zy/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/zy/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/home/zy/fb/node_modules/express/lib/response.js:845:7)
+    at /home/zy/fb/routes/index.js:122:9
+[Tue Nov 10 2015 00:17:33 GMT+0800 (CST)] /login
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:350:11)
+    at ServerResponse.res.setHeader (/home/zy/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/home/zy/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/home/zy/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/home/zy/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/home/zy/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/home/zy/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/zy/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/home/zy/fb/node_modules/express/lib/response.js:845:7)
+    at /home/zy/fb/routes/index.js:86:9
+[Tue Nov 10 2015 11:57:23 GMT+0800 (CST)] /reg
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:350:11)
+    at ServerResponse.res.setHeader (/home/zy/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/home/zy/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/home/zy/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/home/zy/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/home/zy/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/home/zy/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/zy/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/home/zy/fb/node_modules/express/lib/response.js:845:7)
+    at /home/zy/fb/routes/index.js:35:9
+[Tue Nov 10 2015 11:57:28 GMT+0800 (CST)] /login
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:350:11)
+    at ServerResponse.res.setHeader (/home/zy/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/home/zy/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/home/zy/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/home/zy/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/home/zy/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/home/zy/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/home/zy/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/home/zy/fb/node_modules/express/lib/response.js:845:7)
+    at /home/zy/fb/routes/index.js:86:9
+[Fri Jan 08 2016 21:30:43 GMT+0800 (CST)] /post
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:129:9
+[Fri Jan 08 2016 21:50:11 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:50:39 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:50:54 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:52:05 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:52:26 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:56:05 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 21:56:30 GMT+0800 (CST)] /reg
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:47:9
+[Fri Jan 08 2016 21:56:34 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:13:19 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:13:22 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:13:27 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:14:08 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:14:26 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:15:47 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:15:54 GMT+0800 (CST)] /reg
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:47:9
+[Fri Jan 08 2016 22:17:34 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:24:32 GMT+0800 (CST)] /test
+TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:439:11)
+    at /node/fb/routes/index.js:15:9
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+[Fri Jan 08 2016 22:25:37 GMT+0800 (CST)] /test
+TypeError: first argument must be a string or Buffer
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:439:11)
+    at /node/fb/routes/index.js:15:9
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+[Fri Jan 08 2016 22:25:58 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Fri Jan 08 2016 22:26:27 GMT+0800 (CST)] /test
+ReferenceError: page is not defined
+    at /node/fb/routes/index.js:13:23
+    at callbacks (/node/fb/node_modules/express/lib/router/index.js:164:37)
+    at param (/node/fb/node_modules/express/lib/router/index.js:138:11)
+    at pass (/node/fb/node_modules/express/lib/router/index.js:145:5)
+    at Router._dispatch (/node/fb/node_modules/express/lib/router/index.js:173:5)
+    at Object.router (/node/fb/node_modules/express/lib/router/index.js:33:10)
+    at next (/node/fb/node_modules/express/node_modules/connect/lib/proto.js:174:15)
+    at SendStream.error (/node/fb/node_modules/express/node_modules/connect/node_modules/serve-static/index.js:120:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+[Sat Jan 09 2016 11:58:46 GMT+0800 (CST)] /post
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:136:9
+[Sat Jan 09 2016 11:58:56 GMT+0800 (CST)] /post
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:136:9
+[Sat Jan 09 2016 12:08:41 GMT+0800 (CST)] /reg
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:49:9
+[Sat Jan 09 2016 12:08:45 GMT+0800 (CST)] /reg
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:49:9
+[Sat Jan 09 2016 15:39:44 GMT+0800 (CST)] /post
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:136:9
+[Sat Jan 09 2016 15:41:25 GMT+0800 (CST)] /login
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:100:9
+[Sat Jan 09 2016 15:41:27 GMT+0800 (CST)] /login
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.res.setHeader (/node/fb/node_modules/express/node_modules/connect/lib/patch.js:134:22)
+    at ServerResponse.res.set.res.header (/node/fb/node_modules/express/lib/response.js:595:10)
+    at ServerResponse.res.send (/node/fb/node_modules/express/lib/response.js:151:12)
+    at fn (/node/fb/node_modules/express/lib/response.js:841:10)
+    at View.exports.renderFile [as engine] (/node/fb/node_modules/ejs/lib/ejs.js:355:10)
+    at View.render (/node/fb/node_modules/express/lib/view.js:76:8)
+    at Function.app.render (/node/fb/node_modules/express/lib/application.js:561:10)
+    at ServerResponse.res.render (/node/fb/node_modules/express/lib/response.js:845:7)
+    at /node/fb/routes/index.js:100:9

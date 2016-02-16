@@ -1,0 +1,159 @@
+@import "iconfont.css";
+@import "init.css";
+@import "global.css";
+
+@mixin login-btn($color){
+	width:100%;
+	background: $color none repeat scroll 0% 0%;
+	height:50px;
+	border:none;
+	color:white;
+	border-radius: 2px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+$login-w:300px;
+div.login-page{
+	padding: 125px 0px 50px;
+	text-align: center;
+}
+div.logo{
+	width:$login-w;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo .title {
+	font-size:70px;
+	margin-bottom:10px;
+	color:red;
+}
+.logo .detail {
+	font-size:30px;
+}
+h4.title{
+	margin: 70px auto 50px;
+	color: #B1B1B1;
+	border-bottom: 1px solid #EEE;
+	font-size: 17.5px;
+}
+h4.title span {
+	position: relative;
+	top: 10px;
+	padding: 0px 30px;
+	background: #FFF none repeat scroll 0% 0%;
+}
+h4.title b{
+	margin: 0 10px;
+}
+h4.title a{
+	color: #B1B1B1;
+}
+h4.title a.active{
+	color: #555;
+}
+form{
+	width:$login-w;
+	margin: 0 auto;
+	border-bottom: 1px solid silver;
+}
+.input-prepend{
+	width: 100%;
+	margin-bottom: 15px;
+	white-space: nowrap;
+	line-height: 44px;
+	border:1px solid silver;
+	border-radius: 4px;
+}
+span.add-on{
+	width:44px;
+	height:44px;
+	display:inline-block;
+	border-radius: 4px 0 0 4px;
+	line-height: 44px;
+	border-right: 1px solid silver;
+}
+.input-prepend input{
+	width: calc(100% - 46px);
+	height: 44px;
+	padding: 4px 12px;
+	box-sizing: border-box;
+	border-radius: 0 4px 4px 0;
+	border:none;
+	font-size: 14px;
+}
+.login-btn{
+	@include login-btn(#049CDB);
+}
+div.reg{
+	display: none;
+}
+.reg-btn{
+	@include login-btn(#49BE38);
+}
+.reg-btn:hover,.login-btn:hover{
+	opacity: 0.7;
+}
+div.control-group{
+	width:$login-w;
+	margin: 20px auto 50px;
+	font-size: 12px;
+}
+div.remberme{
+	float: left;
+}
+div.forget{
+	float: right;
+}
+div.login-sns p{
+	margin: 20px 0;
+	color: #999;
+}
+ul.login-sns{
+	font-size: 24px;
+}
+ul.login-sns li{
+	display: inline-block;
+	width:44px;
+	height:44px;
+	border:1px solid silver;
+	border-radius:50%;
+	background: #EEE none repeat scroll 0% 0%;
+	line-height: 44px;
+}
+
+ul.login-sns li.weibo:hover{
+	i.fa:before{
+		color:white;
+	}
+	background-color: rgb(245,126,66);
+}
+ul.login-sns li.qq:hover{
+	i.fa:before{
+		color:white;
+	}
+	background-color: rgb(21,167,240);
+}
+ul.login-sns li.github:hover{
+	i.fa:before{
+		color:white;
+	}
+	background-color:rgb(73,190,56);
+}
+ul.login-sns li.google:hover{
+	i.fa:before{
+		color:white;
+	}
+	background-color: rgb(244,61,55);
+}
+ul.login-sns li.wechat:hover{
+	i.fa:before{
+		color:white;
+	}
+	background-color: rgb(73,190,56);
+}
+.icon-google-plus:before{
+	color:red;
+}
+i.icon-lock{
+	padding-left: 5px;
+}

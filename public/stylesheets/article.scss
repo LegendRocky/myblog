@@ -1,0 +1,159 @@
+@import "global.scss";
+@import "init.scss";
+@import "iconfont.css";
+
+
+div.navbar-top{
+	height:60px;
+	line-height:60px;
+	width:calc(100% - 45px);
+	z-index:1000;
+	position:fixed;
+	right:0;
+	margin-left:45px;
+	box-shadow: 0px 1px 3px #F5F5F5;
+	background: rgba(255, 255, 255, 0.9) none repeat scroll 0% 0%;
+	ul{
+		margin-top:5px;
+	}
+}
+div.navbar-top ul.left{
+	float:left;
+}
+div.navbar-top ul.right{
+	float:right;
+	color:silver;
+}
+div.navbar-top ul.right li{
+	float:right;
+	font-size:18px;
+	border-color:red;
+	margin-right:30px;
+	cursor:pointer;
+}
+div.navbar-top li:hover{
+	span,div.arrow{
+		display:block;
+	}
+}
+div.navbar-top span.bookmark{
+	position:absolute;
+	right:119px;
+	top:55px;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	display:none;
+	text-align:center;
+}
+
+div.navbar-top span.share{
+	position:absolute;
+	right:10px;
+	top:15px;
+	width:80px;
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	display:none;
+	text-align:center;
+}
+i.icon-bookmark{
+	font-size:20px;
+}
+li.portrait{
+	padding-top:5px;
+}
+.head-portrait{
+	border:none;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-image:url(../images/100.jpg);
+	background-size:cover;
+	box-sizing:border-box;
+	&:hover{
+		border:1px solid #DE533A;
+	}
+}
+div.container{
+	width:700px;
+	height:500px;
+	margin:0 auto;
+	padding:60px 10px;
+	div.author-info{
+		border-bottom:1px solid #EEE;
+		padding:20px 0;
+		div.head-portrait{
+			float:left;
+			margin-right:10px;
+		}
+		div.detail{
+			float:left;
+			font-size:12px;
+			span.label{
+				border: 1px solid #E78170;
+				color: #E78170;
+				border-radius:3px;
+				margin-right:5px;
+				font-size:11px;
+			}
+			a.author-name{
+				color:#4094C7;
+				margin-right:5px;
+			}
+			span.date,p{
+				color:#999;
+			}
+			p{
+				margin-top:5px;
+			}
+		}
+		div.fllow_user{
+			float:right;
+			width:80px;
+			height:30px;
+			line-height:30px;
+			text-align:center;
+			border-radius:5px;
+			background-color:red;
+			margin-top:10px;
+			opacity:0.7;
+			cursor:pointer;
+			color:white;
+			font-weight:bold;
+			&:hover{
+				opacity:1;
+			}
+		}
+	}
+}
+div.content{
+	p.title{
+		font-size:32px;
+		font-weight:bold;
+		margin-top:20px;
+		opacity:0.7;
+		word-break: break-all;
+	}
+	p.meta-top{
+		color:#555;
+		margin:20px 0;
+		span{
+			margin-right:20px;
+		}
+	}
+	div.show-content{
+		color: #2F2F2F;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.7;
+	}
+}
