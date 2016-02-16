@@ -9,5 +9,7 @@ npm install安装依赖库
 
 node app.js运行程序  
 
-在运行过程中可能会出现   
- 
+在运行过程中可能会出现未能连接数据库的错误
+## mongodb使用说明
+安装：npm install mongodb -g 全局安装mongodb  
+使用：mongodb --dbpath /node/mongodata 运行mongodb并指定数据存储位置  
