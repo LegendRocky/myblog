@@ -9,6 +9,7 @@ var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 var flash = require('connect-flash');
 var multer  = require('multer');
+var upload = multer({dest: 'uploads/'});
 var connect = require('connect');
 var multipart = require('multiparty');
 
@@ -21,20 +22,22 @@ var errorLog = fs.createWriteStream('error.log', {flags: 'a'});
 
 var app = express();
 
-app.set('port', process.env.PORT || 6666);
+app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
 app.use(favicon(__dirname + '/public/images/favicon.ico'));
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(logger({stream: accessLog}));
+
 app.use(bodyParser.urlencoded({ extended: false }));
 //app.use(multipart({uploadDir:'./public/images'}));
-app.use(multer({
-  dest: './public/images',
-  rename: function (fieldname, filename) {
-    return filename;
-  }
-}));
+// app.use(multer({
+//   dest: './public/images',
+//   rename: function (fieldname, filename) {
+//     return filename;
+//   }
+// }));
 app.use(cookieParser());
 app.use(session({
   secret: settings.cookieSecret,
