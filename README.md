@@ -14,6 +14,5 @@ node app.js运行程序
 使用：mongodb --dbpath /node/mongodata 运行mongodb并指定数据存储位置  
 
 ## 学习交流
-QQ群：496809233  （进群注明：逗比way推荐）
 鄙人QQ: 506819921 (欢迎交流)
 >ps:鄙人前端初学者,擅长node,react,mongodb欢迎交流
