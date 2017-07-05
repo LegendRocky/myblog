@@ -13,6 +13,9 @@ node app.js运行程序
 安装：npm install mongodb -g 全局安装mongodb  
 使用：mongodb --dbpath /node/mongodata 运行mongodb并指定数据存储位置  
 
+##
+此教程只适用于初学者，包含了简单的node应用搭建，以及简单的业务逻辑与mongodb数据库的操作
+
 ## 学习交流
 鄙人QQ: 506819921 (欢迎交流)
 >ps:鄙人前端初学者,擅长node,react,mongodb欢迎交流
