@@ -19,3 +19,7 @@ node app.js运行程序
 ## 学习交流
 鄙人QQ: 506819921 (欢迎交流)
 >ps:鄙人前端初学者,擅长node,react,mongodb欢迎交流
+
+## 其他相关资源
+博主最近在学习关注vue的相关使用，感兴趣的朋友可以移步到  https://github.com/LegendRocky/blog_front_end_vue
+包含相关的api接口，在后续更新中会做出较详细的分析
